@@ -13,6 +13,6 @@ A more involved demonstration of an NMR spectrum generator.  Like the first exam
 Feel free to manipulate the "manipulatable" variables to see how it affects the evolvolution of the system.
 
 # 3IterativeFileGeneration:
-This is an example of how I iteratively generated input files for a specialized simulation software package (called SIMPSON).  It iteratively creates all possible configurations of 3 Cd-113 sites and 4 Te-125 nuclear sites within a "chunk" of a CdTe crystal, calculates all nuclear-nuclear couplings for each configuration, and writes it into a .txt file for later automated submission to SIMPSON. 
+This is an example of how I iteratively generated input files for a specialized simulation software package (called SIMPSON).  It iteratively creates all possible configurations of 3 Cd-113 sites and 4 Te-125 nuclear sites within a "chunk" of a CdTe crystal. In the process, it also calculates all nuclear-nuclear couplings for each configuration, and writes it into a .txt file for later automated submission to SIMPSON. 
 
 This generates 24.7 MB of data in the form of 14,520 .txt files in the specified folder.  (It's relatively quick!)
