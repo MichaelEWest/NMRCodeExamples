@@ -8,7 +8,9 @@ I reccommend re-running the simulation at varying temperatures from 0.001 Kelvin
 Additionally, one can manipulate the "tip angle" of the experiment, where the relative intensities also respond.
 
 # 2QuadrupolarEchoExample:
-A more involved demonstration of an NMR spectrum generator.  Like the first example, it is based in matrix manipulation/linear algebra to describe a quantum mechanical system.  It was created to help model and explain signal distortions that are experienced experimentally.  It is quite a bit more abstract, so it employs a graphical representation that I devised and implemented to help qualitatively digest the evolution of the complex elements of the matrix.
+A more involved demonstration of an NMR spectrum generator.  Like the first example, it is based in matrix manipulation/linear algebra to describe a quantum mechanical system.  It was created to help model and explain signal distortions that are experienced experimentally.  
+
+It is quite a bit more abstract, so it employs a graphical representation that I devised and implemented to help qualitatively digest the evolution of the complex elements of the matrices.  The final spectrum shows how each individual phase matrix contributes to the final signal.
 
 Feel free to manipulate the "manipulatable" variables to see how it affects the evolution of the system.
 
