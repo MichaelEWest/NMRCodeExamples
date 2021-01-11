@@ -8,9 +8,9 @@ I reccommend re-running the simulation at varying temperatures from 0.001 Kelvin
 Additionally, one can manipulate the "tip angle" of the experiment, where the relative intensities also respond.
 
 # 2QuadrupolarEchoExample:
-A more involved demonstration of an NMR spectrum generator.  Like the first example, it is based in matrix manipulation/linear algebra to describe a quantum mechanical system.  It was created to help model and explain signal distortions that are experienced experimentally.  It is quite a bit more abstract, so it employs a graphical representation that I devised and implemented to help demonstrate the evolution of the complex elements of the ematrix.
+A more involved demonstration of an NMR spectrum generator.  Like the first example, it is based in matrix manipulation/linear algebra to describe a quantum mechanical system.  It was created to help model and explain signal distortions that are experienced experimentally.  It is quite a bit more abstract, so it employs a graphical representation that I devised and implemented to help qualitatively digest the evolution of the complex elements of the matrix.
 
-Feel free to manipulate the "manipulatable" variables to see how it affects the evolvolution of the system.
+Feel free to manipulate the "manipulatable" variables to see how it affects the evolution of the system.
 
 # 3IterativeFileGeneration:
 This is an example of how I iteratively generated input files for a specialized simulation software package (called SIMPSON).  It iteratively creates all possible configurations of 3 Cd-113 sites and 4 Te-125 nuclear sites within a "chunk" of a CdTe crystal. In the process, it also calculates all nuclear-nuclear couplings for each configuration, and writes it into a .txt file for later automated submission to SIMPSON. 
